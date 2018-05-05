@@ -59,6 +59,7 @@ a:focus, a:hover {
   background-color: black;
 }
 
+
 #mainNav .navbar-toggler {
   font-size: 14px;
   padding: 11px;
@@ -89,6 +90,13 @@ a:focus, a:hover {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+
+.navbar-nav .nav-item:hover{
+  color: black;
+  border: 1px solid #42DCA3;
+  outline: none;
+  background-color: #42DCA3;
 }
 
 @media (min-width: 992px) {
