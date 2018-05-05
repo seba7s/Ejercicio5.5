@@ -131,7 +131,7 @@ a:focus, a:hover {
   height: auto;
   padding: 200px 0;
   text-align: center;
-  color: black;
+  color: white;
   background: url("../img/Grande.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
