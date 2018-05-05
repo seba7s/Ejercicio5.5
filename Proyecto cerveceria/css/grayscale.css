@@ -123,7 +123,7 @@ a:focus, a:hover {
   height: auto;
   padding: 200px 0;
   text-align: center;
-  color: white;
+  color: black;
   background: url("../img/Grande.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -180,8 +180,8 @@ a:focus, a:hover {
 }
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .download-section {
@@ -201,8 +201,8 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   #map {
     height: 350px;
@@ -254,7 +254,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 footer p {
