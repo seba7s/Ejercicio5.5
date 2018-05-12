@@ -1,0 +1,66 @@
+body {
+	margin:0px;
+	padding: 0px;
+	background: url(fondo.jpg);
+	
+}
+
+.sol {
+	width: 322px;
+    height: 208px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 36%;
+    left: 39%;
+    background: url(sol.jpg);
+    background-size: cover;
+    transition: transform 20s linear;
+
+}
+
+.orbita {
+	width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 2px white dashed;
+    position: absolute;
+    top: 80px;
+    left: 503px;
+    transition: transform 40s linear;
+}
+
+
+
+.orbita:hover{
+  transform: rotate(360deg);
+ 
+	
+}
+
+
+.orbita:hover .tierra{
+  transform: rotate(360deg);
+ 
+	
+}
+
+.sol:hover {
+  transform: rotate(360deg);
+ 
+	
+}
+
+.tierra{
+	width: 83px;
+    height: 91px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: -1%;
+    left: 30%;
+    background: url(tierra.jpg);
+    background-size: cover;
+    transition: transform 20s linear;
+
+}
