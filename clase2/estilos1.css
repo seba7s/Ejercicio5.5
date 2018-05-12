@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'miFuente';
+	src: url(gorillaz_1.ttf);
+}
+
+body {
+	background-color: black;
+}
+
+
+.Footer {
+	
+	background: white;
+	width: 100%;
+	height: 5vh;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.biografia {
+	color: white;
+	size: 18px;
+	text-align: left;
+	margin: 1em;
+	overflow:auto;
+	margin-bottom: 200px;
+}
+
+.imagen {
+	width: 50%;
+	height: 40vh;
+	float: left ;
+	margin-right: 1em;
+}
+
+
+.calendario {
+
+	border: solid 2px white;
+	color: white;
+	margin: 1em;
+	font-size: 40px;
+	float: right;
+}
+
+.tour{
+	color: red;
+}
+
+.listado {
+	font-family: gorillaz_1;
+	font-size: 30px;
+	color: white;
+
+}
